@@ -7,6 +7,7 @@ import Pagetoread from './Pages/Pagetoread.jsx'
 import MainLayouts from './Layouts/MainLayouts.jsx'
 import Islamicbook from './Pages/Islamicbook.jsx'
 import Ebook from './Pages/Ebook.jsx'
+import BookDetails from './Pages/BookDetails.jsx'
 
 
 const router = createBrowserRouter([
@@ -18,6 +19,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+        loader:() => fetch('/api.json'),
+      },
+      {
+        path: '/bookdetails/:id',
+        element: <BookDetails />,
+        loader:() => fetch('/api.json'),
       },
       {
         path: '/listedbook',
