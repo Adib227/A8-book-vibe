@@ -4,22 +4,40 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import Listedbook from './Pages/Listedbook.jsx'
 import Pagetoread from './Pages/Pagetoread.jsx'
-import NavBar from './Components/NavBar.jsx'
+import MainLayouts from './Layouts/MainLayouts.jsx'
+import Islamicbook from './Pages/Islamicbook.jsx'
+import Ebook from './Pages/Ebook.jsx'
+
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <NavBar />
+    element: <MainLayouts />,
+
+    children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
+      {
+        path: '/listedbook',
+        element: <Listedbook />,
+      },
+      {
+        path: '/pagetoread',
+        element: <Pagetoread />,
+      },
+      {
+        path: '/islamicbook',
+        element: <Islamicbook />,
+      },
+      {
+        path: '/ebook',
+        element: <Ebook />,
+      },
+    ],
   },
-  {
-    path: '/listedbook',
-    element: <Listedbook />
-  },
-  {
-    path: '/pagetoread',
-    element: <Pagetoread />
-  }
-]
+ ]
 )
 
 

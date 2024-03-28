@@ -1,9 +1,11 @@
-
+import Card from "../Components/Card";
+import Hero from "../Components/Hero";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
+    <div className="pt-16">
+      <Hero></Hero>
+      <Card></Card>
     </div>
   );
 };

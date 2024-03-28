@@ -1,0 +1,82 @@
+{
+  "books": [
+    {
+      "bookid": 1,
+      "bookname": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "to_kill_a_mockingbird.jpg",
+      "totalpages": 281,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["classic", "coming-of-age", "racism"],
+      "publisher": "J. B. Lippincott & Co.",
+      "year_of_publishing": 1960,
+      "review": "A masterpiece of American literature, tackling themes of racial injustice and moral growth in the American South."
+    },
+    {
+      "bookid": 2,
+      "bookname": "1984",
+      "author": "George Orwell",
+      "image": "1984.jpg",
+      "totalpages": 328,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["dystopian", "political", "surveillance"],
+      "publisher": "Secker & Warburg",
+      "year_of_publishing": 1949,
+      "review": "A dystopian novel that has remained profoundly influential, exploring themes of totalitarianism, surveillance, and individual freedom."
+    },
+    {
+      "bookid": 3,
+      "bookname": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "the_great_gatsby.jpg",
+      "totalpages": 180,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["classic", "romance", "wealth"],
+      "publisher": "Charles Scribner's Sons",
+      "year_of_publishing": 1925,
+      "review": "A quintessential American novel, capturing the essence of the Jazz Age and exploring themes of love, wealth, and the American Dream."
+    },
+    {
+      "bookid": 4,
+      "bookname": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "pride_and_prejudice.jpg",
+      "totalpages": 279,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["classic", "romance", "satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "year_of_publishing": 1813,
+      "review": "A beloved classic of English literature, known for its witty social commentary and timeless romance."
+    },
+    {
+      "bookid": 5,
+      "bookname": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "the_catcher_in_the_rye.jpg",
+      "totalpages": 277,
+      "rating": 4.2,
+      "category": "Fiction",
+      "tags": ["coming-of-age", "alienation", "adolescence"],
+      "publisher": "Little, Brown and Company",
+      "year_of_publishing": 1951,
+      "review": "A classic novel of adolescent angst and rebellion, resonating with generations of readers for its candid portrayal of teenage alienation."
+    },
+    {
+      "bookid": 6,
+      "bookname": "Moby-Dick",
+      "author": "Herman Melville",
+      "image": "moby_dick.jpg",
+      "totalpages": 585,
+      "rating": 4.1,
+      "category": "Fiction",
+      "tags": ["classic", "adventure", "whaling"],
+      "publisher": "Harper & Brothers",
+      "year_of_publishing": 1851,
+      "review": "An epic tale of obsession and revenge set against the backdrop of the whaling industry, exploring themes of fate, madness, and the human condition."
+    }
+  ]
+}
