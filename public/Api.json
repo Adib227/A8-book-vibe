@@ -4,11 +4,11 @@
       "bookid": 1,
       "bookname": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "image": "https://i.ibb.co/wrx2tvf/pngwing-1-1.png",
+      "image": "https://i.ibb.co/xL5Bshs/1200px-To-Kill-a-Mockingbird-first-edition-cover.jpg",
       "totalpages": 281,
       "rating": 4.5,
       "category": "Fiction",
-      "tags": ["classic", "coming-of-age", "racism"],
+      "tags": ["Racism"],
       "publisher": "J. B. Lippincott & Co.",
       "year_of_publishing": 1960,
       "review": "A masterpiece of American literature, tackling themes of racial injustice and moral growth in the American South."
@@ -21,7 +21,7 @@
       "totalpages": 328,
       "rating": 4.6,
       "category": "Fiction",
-      "tags": ["dystopian", "political", "surveillance"],
+      "tags": ["Political"],
       "publisher": "Secker & Warburg",
       "year_of_publishing": 1949,
       "review": "A dystopian novel that has remained profoundly influential, exploring themes of totalitarianism, surveillance, and individual freedom."
@@ -34,7 +34,7 @@
       "totalpages": 180,
       "rating": 4.3,
       "category": "Fiction",
-      "tags": ["classic", "romance", "wealth"],
+      "tags": [ "Wealth"],
       "publisher": "Charles Scribner's Sons",
       "year_of_publishing": 1925,
       "review": "A quintessential American novel, capturing the essence of the Jazz Age and exploring themes of love, wealth, and the American Dream."
@@ -47,7 +47,7 @@
       "totalpages": 279,
       "rating": 4.4,
       "category": "Fiction",
-      "tags": ["classic", "romance", "satire"],
+      "tags": ["Classic"],
       "publisher": "T. Egerton, Whitehall",
       "year_of_publishing": 1813,
       "review": "A beloved classic of English literature, known for its witty social commentary and timeless romance."
@@ -60,7 +60,7 @@
       "totalpages": 277,
       "rating": 4.2,
       "category": "Fiction",
-      "tags": ["coming-of-age", "alienation", "adolescence"],
+      "tags": ["Adolescence"],
       "publisher": "Little, Brown and Company",
       "year_of_publishing": 1951,
       "review": "A classic novel of adolescent angst and rebellion, resonating with generations of readers for its candid portrayal of teenage alienation."
@@ -73,7 +73,7 @@
       "totalpages": 585,
       "rating": 4.1,
       "category": "Fiction",
-      "tags": ["classic", "adventure", "whaling"],
+      "tags": ["Adventure"],
       "publisher": "Harper & Brothers",
       "year_of_publishing": 1851,
       "review": "An epic tale of obsession and revenge set against the backdrop of the whaling industry, exploring themes of fate, madness, and the human condition."

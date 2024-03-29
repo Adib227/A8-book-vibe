@@ -11,7 +11,7 @@ const Home = () => {
     <div className="pt-16">
       <Hero></Hero>
 
-        <div className="grid-cols-3 lg:w-[1400px] lg:mx-auto  grid gap-6">{
+        <div className="grid lg:grid-cols-3 lg:w-[1400px] lg:mx-auto gap-28 mt-10">{
         cards.books.map(card=> <Card key={card.bookid} card={card}> </Card>)
       }
       </div>

@@ -19,12 +19,19 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        loader:() => fetch('/api.json'),
+        loader: () => fetch('/api.json'),
       },
       {
         path: '/bookdetails/:id',
         element: <BookDetails />,
-        loader:() => fetch('/api.json'),
+        loader: async ({ params }) => {
+          const res = await fetch('/api.json')
+          const data = await res.json()
+          const singleBook = data.books.find(
+            (book) => book.bookid === parseFloat(params.id),
+          )
+          return singleBook
+        },
       },
       {
         path: '/listedbook',
@@ -44,7 +51,7 @@ const router = createBrowserRouter([
       },
     ],
   },
- ]
+]
 )
 
 
