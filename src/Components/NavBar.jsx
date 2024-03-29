@@ -11,21 +11,23 @@ const NavBar = () => {
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <NavLink to="/" className="text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]font-normal">Home</NavLink>
-              <NavLink to="/listedbook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Listed Books</NavLink>
-              <NavLink to="/pagetoread" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Pages to Read</NavLink>
-              <NavLink to="/islamicbook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Islamic Book</NavLink>
-              <NavLink to="/ebook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">E Book</NavLink>
+              <NavLink to="/listedbook" className=" rounded-lg font-bold text-black  px-2  text-lg ">Listed Books</NavLink>
+              <NavLink to="/pagetoread" className=" rounded-lg font-bold text-black  px-2  text-lg ">Pages to Read</NavLink>
+              <NavLink to="/islamicbook" className=" rounded-lg font-bold text-black  px-2  text-lg ">Islamic Book</NavLink>
+              <NavLink to="/ebook" className=" rounded-lg font-bold text-black  px-2  text-lg ">E Book</NavLink>
             </ul>
           </div>
-          <a className="text-2xl font-bold">Book Vibe</a>
+          <NavLink to="/" className="font-bold text-xl">
+            Book Vibe
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-6">
-            <NavLink to="/" className="text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] font-normal">Home</NavLink>
-              <NavLink to="/listedbook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Listed Books</NavLink>
-              <NavLink to="/pagetoread" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Pages to Read</NavLink>
-              <NavLink to="/islamicbook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">Islamic Book</NavLink>
-              <NavLink to="/ebook" className=" rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] text-lg ">E Book</NavLink>
+            <NavLink to="/" className="text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762] l">Home</NavLink>
+              <NavLink to="/listedbook" className=" rounded-lg font-bold text-black px-2  text-lg ">Listed Books</NavLink>
+              <NavLink to="/pagetoread" className=" rounded-lg font-bold text-black  px-2  text-lg ">Pages to Read</NavLink>
+              <NavLink to="/islamicbook" className=" rounded-lg font-bold text-black px-2  text-lg ">Islamic Book</NavLink>
+              <NavLink to="/ebook" className=" rounded-lg font-bold text-black  px-2  text-lg ">E Book</NavLink>
           </ul>
         </div>
         <div className="navbar-end gap-2 lg:gap-4 hidden lg:flex">
