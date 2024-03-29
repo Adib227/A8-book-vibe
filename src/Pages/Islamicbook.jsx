@@ -20,9 +20,6 @@ const Islamicbook = () => {
         In essence, The Quran is not merely a book; it is a divine revelation, a timeless testament to the mercy and wisdom of the Almighty. Its words have the power to transform hearts, illuminate minds, and uplift souls. For those seeking spiritual enlightenment and guidance, there is no greater treasure than The Quran."
 
 
-
-
-
       </p>
     </div>
   );
