@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="hero  lg:w-[1400px] lg:mx-auto py-12 bg-base-200 rounded-xl">
       <div className="hero-content flex-col lg:flex-row-reverse gap-60">
-        <img src="src/assets/pngwing 1.png" className="max-w-sm rounded-lg " />
+        <img src="https://i.ibb.co/wrx2tvf/pngwing-1-1.png" className="max-w-sm rounded-lg " />
         <div className="space-y-12">
           <h1 className="text-3xl lg:text-5xl font-bold">Books to freshen up <br />  your bookshelf</h1>
           <NavLink to='/listedbook'>
