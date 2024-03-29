@@ -1,7 +1,11 @@
 import { useLoaderData } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BookDetails = () => {
   const { book, image, bookname, author, category, review, tags, totalpages, publisher, year_of_publishing, rating } = useLoaderData();
+  const handleToast = () => { toast("Added to read list") }
+  const handleToastOne = () => { toast("Added to Wishlist")}
   return (
     <div className="hero bg-base-200 rounded-xl w-[425px] mx-auto lg:w-[1200px] lg:mx-auto mt-16">
       <div className="hero-content flex-col lg:flex-row">
@@ -34,11 +38,13 @@ const BookDetails = () => {
             </div>
           </div>
           <div className="space-x-8 mt-8">
-            <button className="btn btn-ghost border-[#1313134D]">Read</button>
-          <button className="btn bg-[#50B1C9] text-white">Wishlist</button>
+            <button onClick={handleToast} className="btn btn-ghost border-[#1313134D] ">Read</button>
+
+            <button onClick={handleToastOne} className="btn bg-[#50B1C9] text-white">Wishlist</button>
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
