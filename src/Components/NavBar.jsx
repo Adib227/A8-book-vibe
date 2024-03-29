@@ -17,7 +17,7 @@ const NavBar = () => {
               <NavLink to="/ebook" className=" rounded-lg font-bold text-black  px-2  text-lg ">E Book</NavLink>
             </ul>
           </div>
-          <NavLink to="/" className="font-bold text-xl">
+          <NavLink to="/" className="font-bold text-xl mr-4 lg:mr-0">
             Book Vibe
           </NavLink>
         </div>
@@ -30,7 +30,7 @@ const NavBar = () => {
               <NavLink to="/ebook" className=" rounded-lg font-bold text-black  px-2  text-lg ">E Book</NavLink>
           </ul>
         </div>
-        <div className="navbar-end gap-2 lg:gap-4 hidden lg:flex">
+        <div className="navbar-end gap-2 lg:gap-4 lg:flex ml-8 lg:ml-0">
           <a className="btn bg-[#38b762] text-lg font-semibold text-white">Sign In</a>
           <a className="btn text-lg font-semibold text-white bg-[#5ac6d1]">Sign Up</a>
         </div>
